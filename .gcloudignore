@@ -1,0 +1,25 @@
+# 这是 Google Cloud Build 会忽略的文件
+.git
+.gitignore
+
+# 依赖
+node_modules
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# 操作系统
+.DS_Store
+Thumbs.db
